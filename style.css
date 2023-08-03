@@ -1,0 +1,314 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-attachment: fixed;   
+
+
+    font-family: 'Nunito', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+header{
+
+    background-color: rgb(135, 2, 139);
+    display:  flex;
+    align-items: center;
+}
+
+
+
+#right ul{
+    list-style: none;
+    display: flex;
+
+}
+#left a{text-decoration: none;}
+
+#right ul li{
+    padding:18px;
+    cursor: pointer;
+    color: white;
+    transition: 0.8s ease;
+
+}
+#right ul li:hover{
+    background: rgb(10, 25, 103);
+   
+}
+#right ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+#checked{
+    background-color: rgb(10, 25, 103);
+    
+}
+
+
+#left h2{
+    margin-right: 20px;
+    margin-left: 10px;
+   font-size: 18px;
+   color: rgb(236, 236, 236);
+   
+
+   
+}
+
+#left h2 span{
+    font-size: 25px;
+    color: white;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+
+article img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+
+#dvmn{
+    border: 1px black solid;
+
+}
+
+#mn1{
+    margin-right: 30px;
+    border-right: 2px blue solid;
+    padding-right: 10px;
+  
+    
+
+
+}
+#mn1 h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:rgb(10, 25, 103)  ;
+
+
+}
+
+#mn1 button{
+    box-shadow: 5px 5px 20px black;
+    padding: 15px 50px;
+    margin-top: 10px;
+    border: none;
+    background-color:rgb(39, 71, 234) ;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s ease;
+    border-radius: 50px;
+
+}
+#mn1 button:hover{
+    background-color:rgb(10, 25, 103) ;
+
+
+}
+
+#mn1 h3{
+    margin-bottom: 10px;
+}
+#mn1 p{
+    color: rgb(59, 59, 59);
+}
+
+#mn1 ul{
+    margin-left: 30px;
+    font-size: 18px;
+    color: rgb(19, 19, 19);
+}
+
+#h3{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: rgb(135, 2, 139);;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: rgb(135, 2, 139);;
+    display:  flex;
+text-align: center;
+    justify-content: center;
+}
+
+#logof h2{
+    font-size: 18px;
+   color: rgb(236, 236, 236);
+
+    
+}
+
+#logof span{
+    font-size: 25px;
+    color: white;
+}
+
+#icons i{
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: 1px black solid;
+    transition: 0.6s ease;
+    
+   
+}
+
+
+#icons #lasts{
+    border: none;
+}
+
+#icons i:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+footer a{
+    text-decoration: none;
+}
+
+
+
+#bergerr{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    cursor: pointer;
+    display: none;
+    margin-right: 50px;
+    transition: 0.6s  ease;
+    
+}
+
+#bergerr:hover{
+    background-color: white;
+}
+.nave{
+    position: absolute;
+    display: none;
+    margin-top: 70px;
+    background-color: rgb(135, 2, 139);;
+    
+    
+}
+.nave ul{
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+.nave ul a{
+    text-decoration: none;
+}
+.nave ul li{
+    padding:18px;
+    cursor: pointer;
+    color: white;
+    transition: 0.8s ease;
+
+}
+.nave ul li:hover{
+    background: rgb(10, 25, 103);
+   
+}
+
+.naveParent{
+    display: flex;
+    flex-direction: column;
+
+}
+@media (max-width:736px) {
+    
+
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 100px;
+        padding-bottom: 100px;
+       
+    }
+   
+   
+
+    #mn1{
+        padding-bottom: 20px;
+        border-right: none;
+        margin-right: 20px;
+        border: none;
+        padding-right: 10px;
+        margin-bottom: 20px;
+        
+    
+    
+    }#mn1 h1{
+        font-size: 30px;
+        text-transform: uppercase;
+        color:rgb(10, 25, 103)  ;
+    
+    
+    }
+    #right{
+
+        display: none;
+        transition: 0.5s ease;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    #bergerr{
+        display: block;
+    }
+
+    #right ul{
+        list-style: none;
+        display: block;
+    
+    }
+
+    article img{
+        width: 300px;
+        height: 300px;
+    }
+
+    
+}
